@@ -25,7 +25,7 @@ public class TestAnimal {
         Dog dog2 = (Dog)animal2;
         BigDog bigDog2 = (BigDog)animal3;
         Dog dog3 = (Dog)animal3;
-        // Cat cat2 = (Cat)animal2;        // Error!!! Dog cannot be cast to Cat !
+        // Cat cat2 = (Cat)animal2;        // Error!!! Dog cannot be cast to Cat !!!
 
         dog2.greeting(dog3);
         dog3.greeting(dog2);
